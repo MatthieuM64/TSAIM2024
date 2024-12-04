@@ -2,7 +2,9 @@
 
 <a href="https://doi.org/10.5281/zenodo.14257074" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14257074.svg" alt="DOI"></a>
 
-Codes used in the scientific publication: M. Mangeat, S. Chatterjee, J. D. Noh, and H. Rieger, <i>Emergent complex phases in a discrete flocking model with reciprocal and non-reciprocal interactions</i>, submitted (2024). Preprint available on <a href='https://arxiv.org/abs/2412.xxxxx'>arXiv</a>. For each model, a C++ code to compute the numerical simulations of the microscopic model and a C++ code to compute the numerical solutions of the hydrodynamic equations are available in this repository. Some additional Python codes are also available to generate movies of the system dynamics.</br></br>
+Codes used in the scientific publication: M. Mangeat, S. Chatterjee, J. D. Noh, and H. Rieger, <i>Emergent complex phases in a discrete flocking model with reciprocal and non-reciprocal interactions</i>, submitted (2024). A preprint is available on <a href='https://arxiv.org/abs/2412.02501'>arXiv</a>.</br></br>
+
+For each model, a C++ code to compute the numerical simulations of the microscopic model and a C++ code to compute the numerical solutions of the hydrodynamic equations are available in this repository. Some additional Python codes are also available to generate movies of the system dynamics.</br></br>
 <b>Exportations:</b> density snapshots and profiles shown in the different figures of the paper.</br>
 <b>Compile:</b> g++ filename.cpp -fopenmp -lgsl -lgslcblas -lm -O3 -s -o filename.out.</br>
 <b>Run:</b> ./filename.out -parameter=value.</br>
